@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B44795323C31C5A00BEA0EF /* URLSessionResearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B44795223C31C5A00BEA0EF /* URLSessionResearch.m */; };
 		7B623F4A23BDC3EC007213A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B623F4923BDC3EC007213A8 /* AppDelegate.m */; };
 		7B623F4D23BDC3EC007213A8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B623F4C23BDC3EC007213A8 /* SceneDelegate.m */; };
 		7B623F5023BDC3EC007213A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B623F4F23BDC3EC007213A8 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B44795123C31C5A00BEA0EF /* URLSessionResearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLSessionResearch.h; sourceTree = "<group>"; };
+		7B44795223C31C5A00BEA0EF /* URLSessionResearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLSessionResearch.m; sourceTree = "<group>"; };
 		7B623F4523BDC3EC007213A8 /* HTTPResearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTTPResearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B623F4823BDC3EC007213A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7B623F4923BDC3EC007213A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				7B623F4C23BDC3EC007213A8 /* SceneDelegate.m */,
 				7B623F4E23BDC3EC007213A8 /* ViewController.h */,
 				7B623F4F23BDC3EC007213A8 /* ViewController.m */,
+				7B44795123C31C5A00BEA0EF /* URLSessionResearch.h */,
+				7B44795223C31C5A00BEA0EF /* URLSessionResearch.m */,
 				7B623F5123BDC3EC007213A8 /* Main.storyboard */,
 				7B623F5423BDC3F0007213A8 /* Assets.xcassets */,
 				7B623F5623BDC3F0007213A8 /* LaunchScreen.storyboard */,
@@ -148,6 +153,7 @@
 			files = (
 				7B623F5023BDC3EC007213A8 /* ViewController.m in Sources */,
 				7B623F4A23BDC3EC007213A8 /* AppDelegate.m in Sources */,
+				7B44795323C31C5A00BEA0EF /* URLSessionResearch.m in Sources */,
 				7B623F5B23BDC3F0007213A8 /* main.m in Sources */,
 				7B623F4D23BDC3EC007213A8 /* SceneDelegate.m in Sources */,
 			);
@@ -292,6 +298,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7U9J5872X8;
 				INFOPLIST_FILE = HTTPResearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +316,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7U9J5872X8;
 				INFOPLIST_FILE = HTTPResearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
