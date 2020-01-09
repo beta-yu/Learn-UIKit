@@ -41,11 +41,11 @@
     [superView addSubview:stackView];
     
     UILayoutGuide *safeAreaGuide = superView.safeAreaLayoutGuide;
-    NSLayoutConstraint *stackViewLeft = [stackView.leftAnchor constraintEqualToAnchor:safeAreaGuide.leftAnchor constant:0];
-    NSLayoutConstraint *stackViewRight = [stackView.rightAnchor constraintEqualToAnchor:safeAreaGuide.rightAnchor constant:0];
+    NSLayoutConstraint *stackViewLeading = [stackView.leadingAnchor constraintEqualToAnchor:safeAreaGuide.leadingAnchor constant:0];
+    NSLayoutConstraint *stackViewTrailing = [stackView.trailingAnchor constraintEqualToAnchor:safeAreaGuide.trailingAnchor constant:0];
     NSLayoutConstraint *stackViewTop = [stackView.topAnchor constraintEqualToAnchor:safeAreaGuide.topAnchor];
     NSLayoutConstraint *stackViewBottom = [stackView.bottomAnchor constraintEqualToAnchor:safeAreaGuide.bottomAnchor];
-    [NSLayoutConstraint activateConstraints:@[stackViewLeft, stackViewRight, stackViewTop, stackViewBottom]];
+    [NSLayoutConstraint activateConstraints:@[stackViewLeading, stackViewTrailing, stackViewTop, stackViewBottom]];
     
     //CHCR Priority
     [imageView setContentHuggingPriority:250 forAxis:UILayoutConstraintAxisHorizontal];
